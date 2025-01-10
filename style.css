@@ -52,3 +52,22 @@ body{
     font-family: sans-serif;
     font-size: 24px;
 }
+
+form{
+    width: 400px;
+    height: 450px;
+    background: #AEC2B6;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: start;
+
+}
+
+label{
+    display: block;
+}
