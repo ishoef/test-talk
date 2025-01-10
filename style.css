@@ -70,4 +70,21 @@ form{
 
 label{
     display: block;
+    color: var(--background-color);
+    font-size: 28px;
+}
+
+input[type="email"] {
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 7px;
+    margin: 5px;
+}
+
+input[type="email"]::placeholder{
+    font-size: 15px;
+    font-weight: 300;
+    color: #AEC2B6;
 }
